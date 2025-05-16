@@ -11,3 +11,8 @@
     max-height: 400px;
     object-fit: cover;
 }
+
+.btn {
+    background-color: orange;
+    border-color: white;
+}

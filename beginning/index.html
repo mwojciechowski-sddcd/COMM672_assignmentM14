@@ -41,24 +41,6 @@
   </nav>
 
 <!-- Slideshow (Carousel) -->
- <section class="hero">
-    <div>
-        
-        <h2>Welcome to Purrfect Vibes!</h2>
-        <p>Discover a haven for cat lovers, where we share everything you need to care for and celebrate your feline companions.</p>
-    </div>
-    <div>
-        
-        <h2>Join Our Cat Care Community</h2>
-        <p>Learn essential tips, discover resources, and join a supportive community of cat enthusiasts.</p>
-    </div>
-    <div>
-        
-        <h2>Explore Fun Quizzes</h2>
-        <p>Have fun with quizzes and discover your purrfect match!</p>
-    </div>
- </section>
-
  <section class="carouselSection">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -100,7 +82,6 @@
     </div>
 </section>
 
-
 <!-- About Section -->
 <section id="about">
     <h2>Welcome to Purrfect Vibes!</h2>
@@ -108,34 +89,65 @@
 </section>
 
 <!-- Features Section -->
-<section id="features">
+<section id="features" class="container py-5">
     <h2>Our Features</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="images/cat-care.jpg" alt="Cat Care">
+                <div class="card-body">
+                    <h5 class="card-title">Cat Care Essentials</h5>
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Read More
+                    </a>
+                    <div class="collapse" id="collapse1">
+                        <div class="card card-body">
+                            <p class="card-text">Explore a wealth of resources on feline care, behavior, and wellness to ensure your cat leads a happy, healthy life.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="images/cat-quizzes.jpg" alt="Cat Quizzes">
+                <div class="card-body">
+                    <h5 class="card-title">Purr-sonality Quizzes</h5>
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Read More
+                    </a>
+                    <div class="collapse" id="collapse2">
+                        <div class="card card-body">
+                            <p class="card-text">Take our fun quizzes to find out which cat breed matches your personality. Discover unique facts and learn about different cat breeds!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="images/cat-community.jpg" alt="Cat Community">
+                <div class="card-body">
+                    <h5 class="card-title">Interactive Community</h5>
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Read More
+                    </a>
+                    <div class="collapse" id="collapse3">
+                        <div class="card card-body">
+                            <p class="card-text">Join our community of cat lovers. Participate in fun contests and engage with other cat enthusiasts. Share your experiences and learn from experts!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     <div>
-        <img src="images/cat-care.jpg" alt="Cat Care">
-        <h3>Cat Care Essentials</h3>
-        <button>Read More</button>
-        <p>Explore a wealth of resources on feline care, behavior, and wellness to ensure your cat leads a happy, healthy life.</p>
-    </div>
-    <div>
-        <img src="images/cat-quizzes.jpg" alt="Cat Quizzes">
-        <h3>Purr-sonality Quizzes</h3>
-        <button>Read More</button>
-        <p>Take our fun quizzes to find out which cat breed matches your personality. Discover unique facts and learn about different cat breeds!</p>
-    </div>
-    <div>
-        <img src="images/cat-community.jpg" alt="Cat Community">
-        <h3>Interactive Community</h3>
-        <button>Read More</button>
-        <p>Join our community of cat lovers. Participate in fun contests and engage with other cat enthusiasts. Share your experiences and learn from experts!</p>
-    </div>
 </section>
 
 <!-- Testimonials Section with Tabs -->
-<section>
+<section class="container py-5">
     <div id="testimonials">
         <h2>Cat Owner Testimonials</h2>
     </div>
-
     <nav>
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
         <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Felicity Meowser</button>
