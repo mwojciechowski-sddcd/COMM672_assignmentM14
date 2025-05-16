@@ -1,20 +1,13 @@
-nav {
-    background-color: lightgrey;
-}
-
-nav a {
-    text-decoration: none;
-    color: black;
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-items: flex-start;
-}
-
 .logo {
     max-width: 200px;
+}
+
+.carouselSection {
+    width: 100%;
+}
+
+.carouselSection img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
 }
