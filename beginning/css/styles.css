@@ -16,3 +16,22 @@
     background-color: orange;
     border-color: white;
 }
+
+#about, #contact, #features {
+    text-align: center;
+}
+
+#features .row{
+    width: 75%;
+    margin-left: 10%;
+}
+
+.test {
+    background-color: #0B0B45;
+    color: white;
+    border: 1px solid black;
+}
+
+.test button {
+    color: white;
+}
